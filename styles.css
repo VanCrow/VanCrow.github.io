@@ -1,0 +1,42 @@
+/* styles.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #000; /* Fondo negro para mejor visualización */
+}
+
+#fireworksCanvas {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#textCanvas {
+  display: none; /* Oculto */
+}
+
+#startButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+#startButton:hover {
+  background-color: #218838;
+}
+
