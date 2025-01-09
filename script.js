@@ -69,8 +69,8 @@ function updateTextCoordinates() {
     const totalHeight = fontSize * LINE_SPACING * 2; // Espacio para dos líneas de texto
     const centerY = canvas.height / 2;
 
-    const textPoints1 = getTextCoordinates('Feliz Año Nuevo, Astrid. ¡Ya estás viejita! xd', fontSize, centerY - totalHeight / 1);
-    const textPoints2 = getTextCoordinates('Psdt: Esa canción va porque sé que te gusta. 🌻', fontSize, centerY + totalHeight / 1);
+    const textPoints1 = getTextCoordinates('Feliz Cumple Gisela, Espero que la pases bonito 🌻', fontSize, centerY - totalHeight / 1);
+    const textPoints2 = getTextCoordinates('Ya estas entrando a la vejez con tus 20 xD', fontSize, centerY + totalHeight / 1);
 
     textPoints = textPoints1.concat(textPoints2);
 }
